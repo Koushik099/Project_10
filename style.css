@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+
+  background: url("images/bg.jpg") no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.navbar {
+  height: 20vh;
+  width: 100vw;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar ul {
+  margin-right: 50px;
+}
+.list-items {
+  display: flex;
+}
+.list-item a {
+  padding: 10px 30px;
+  font-weight: 500;
+  color: white;
+  font-size: 17px;
+}
+.call-logo i {
+  color: white;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-right: 10px;
+  transform: rotate(-29deg);
+}
+.call p,
+.call span {
+  color: white;
+}
+.call {
+  margin-right: 70px;
+}
+.call p {
+  font-size: 20px;
+  font-weight: 500;
+}
+hr {
+  margin-left: 424px;
+  margin-right: 70px;
+}
+
+.logo {
+  position: absolute;
+  top: 52px;
+  left: 70px;
+}
+.logo h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 29px;
+}
+
+.container {
+  margin-left: 70px;
+}
+.container h1 {
+  margin-top: 83px;
+  color: white;
+  font-size: 62px;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 37px;
+  background-color: transparent;
+  color: white;
+  font-size: 27px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.details {
+  position: absolute;
+  top: 200px;
+  right: 213px;
+  background-color: #304454;
+  padding: 0 20px;
+}
+
+.details i,
+.details-two i {
+  background-color: white;
+
+  margin-top: 20px;
+  padding: 5px 23px;
+  border-radius: 31px;
+  font-size: 28px;
+}
+.details p,
+.details-two p {
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.details-two {
+  position: absolute;
+  bottom: 56px;
+  left: 608px;
+  background-color: #304454;
+  padding: 0 20px;
+}
+
+.map-pin {
+  position: absolute;
+  right: 267px;
+  bottom: 217px;
+}
+.map-pin-two {
+  position: absolute;
+  bottom: 89px;
+  right: 452px;
+  transform: rotate(-90deg);
+}
